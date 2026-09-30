@@ -1,0 +1,10 @@
+# Nmap 7.991 scan initiated Wed Sep 30 21:21:13 2026 as: nmap -sV -p 3306,33060 -oN mysql_scan.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00088s latency).
+
+PORT      STATE SERVICE VERSION
+3306/tcp  open  mysql   MySQL 8.0.46
+33060/tcp open  mysqlx  MySQL X protocol listener
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep 30 21:21:14 2026 -- 1 IP address (1 host up) scanned in 0.65 seconds
